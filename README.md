@@ -31,3 +31,5 @@ Exemplo: alterar ForEach por while, melhorar a query ao banco, etc.
 Exemplo: Circle, Travis, BrowserStack, etc.
 
 * ***revert***: indica a reverão de um commit anterior.
+
+* ***dep***: adicionado ou alterada alguma dependência.
