@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using CleanArchMVC.Application.DTOs;
+using CleanArchMVC.Application.Interfaces;
 using CleanArchMVC.Domain.Entities;
 using CleanArchMVC.Domain.Interfaces;
 using System.Collections.Generic;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace CleanArchMVC.Application.Services
 {
-    public class CategoryService
+    public class CategoryService: ICategoryService
     {
         private ICategoryRepository _categoryRepository;
         private readonly IMapper _mapper;

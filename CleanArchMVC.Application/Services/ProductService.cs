@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using CleanArchMVC.Application.DTOs;
+using CleanArchMVC.Application.Interfaces;
 using CleanArchMVC.Domain.Entities;
 using CleanArchMVC.Domain.Interfaces;
 using System;
@@ -8,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace CleanArchMVC.Application.Services
 {
-    public class ProductService
+    public class ProductService: IProductService
     {
         private IProductRepository _productRepository;
 
