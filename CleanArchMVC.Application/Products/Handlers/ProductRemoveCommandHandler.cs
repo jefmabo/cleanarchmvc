@@ -32,10 +32,5 @@ namespace CleanArchMVC.Application.Products.Handlers
                 return result;
             }
         }
-
-        public Task<Product> Handle(ProductRemoveCommand request, CancellationToken cancellationToken)
-        {
-            throw new NotImplementedException();
-        }
     }
 }

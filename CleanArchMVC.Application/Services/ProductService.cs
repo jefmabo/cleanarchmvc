@@ -3,7 +3,6 @@ using CleanArchMVC.Application.DTOs;
 using CleanArchMVC.Application.Interfaces;
 using CleanArchMVC.Application.Products.Commands;
 using CleanArchMVC.Application.Products.Queries;
-using CleanArchMVC.Domain.Entities;
 using CleanArchMVC.Domain.Interfaces;
 using MediatR;
 using System;
